@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Portfolio - Kethavath Varsha</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(to right, #f0f8ff, #e6f0ff);
+      margin: 0;
+      padding: 0;
+      color: #333;
+    }
+
+    header {
+      background-color: #3f0668;
+      color: white;
+      text-align: center;
+      padding: 40px 20px;
+    }
+
+    nav {
+      text-align: center;
+      background-color: #1f1f2e;
+      padding: 12px 0;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 20px;
+      font-weight: bold;
+      font-size: 16px;
+    }
+
+    nav a:hover {
+      color: #f0a500;
+    }
+
+    section {
+      padding: 40px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    .card {
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+      padding: 30px;
+      margin-bottom: 30px;
+    }
+
+    h2 {
+      color: #3f0668;
+      margin-top: 0;
+    }
+
+    img {
+      display: block;
+      margin: 20px auto;
+      border-radius: 60%;
+      width: 170px;
+      height: 170px;
+      object-fit: cover;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    }
+
+    ul {
+      line-height: 1.8;
+      padding-left: 20px;
+    }
+
+    a {
+      color: #004aad;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .btn {
+      background-color: #3f0668;
+      color: white;
+      padding: 12px 25px;
+      border: none;
+      border-radius: 6px;
+      font-size: 16px;
+      cursor: pointer;
+      margin-top: 15px;
+      transition: 0.3s ease;
+    }
+
+    .btn:hover {
+      background-color: #5f2c91;
+    }
+
+    .social-links a {
+      display: inline-block;
+      margin: 5px 10px;
+      font-weight: bold;
+      background: #eee;
+      padding: 8px 15px;
+      border-radius: 6px;
+      transition: 0.3s ease;
+    }
+
+    .social-links a:hover {
+      background: #d3d3f3;
+      color: #3f0668;
+    }
+
+    footer {
+      background-color: #222;
+      color: #ccc;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+
+    @media (max-width: 600px) {
+      nav a {
+        display: block;
+        margin: 10px 0;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Kethavath Varsha</h1>
+    <p>B.Tech CSE Student</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="about" class="card">
+    <h2>About Me</h2>
+    <img src="E:\pic.jpg" alt="Varsha's Image">
+    <p>Hello! I'm <strong>Kethavath Varsha</strong>, currently pursuing my B.Tech in Computer Science at JNTUH College Of Engineering (2024 - 2027). I'm passionate about building interactive and user-friendly web applications. I love working with technologies like HTML, CSS, JavaScript, Python, and exploring backend with Node.js.</p>
+    
+    <h3>Basic Details</h3>
+    <p><strong>Email:</strong> <a href="mailto:kethavathvarsha156@gmail.com">kethavathvarsha156@gmail.com</a></p>
+  </section>
+
+  <section class="card">
+    <h2>Skills</h2>
+    <ul>
+      <li>HTML, CSS, JavaScript</li>
+      <li>Python, Java</li>
+      <li>Node.js, Git & GitHub</li>
+    </ul>
+  </section>
+
+  <section id="projects" class="card">
+    <h2>Projects</h2>
+    <ul>
+      <li><strong>Exam Cell Automation System</strong> – A dynamic web tool for automating exam schedules, seating plans, and hall allocations using student data.</li>
+      <li><strong>HopeBox 2.0</strong> – An AI-powered lifeline system to detect distress anonymously and offer immediate support (in progress).</li>
+    </ul>
+  </section>
+
+  <section class="card">
+    <h2>Online Profiles</h2>
+    <div class="social-links">
+      <a href="https://github.com/kethavathvarsha156" target="_blank">GitHub</a><br>
+      <a href="https://www.linkedin.com/in/kethavath-varsha-6674a8378/" target="_blank">LinkedIn</a>
+    </div>
+  </section>
+
+  <section class="card">
+    <h2>Resume</h2>
+    <p>
+      <a href="C:\Users\ketha\Downloads\my resume.docx" target="_blank" class="btn">Click to View My Resume</a>
+    </p>
+  </section>
+
+  <section id="contact" class="card">
+    <h2>Contact</h2>
+    <p><strong>Email:</strong> <a href="mailto:kethavathvarsha156@gmail.com">kethavathvarsha156@gmail.com</a></p>
+    <button class="btn" onclick="contactMessage()">Contact Me</button>
+  </section>
+
+  <footer>
+    &copy; 2025 Kethavath Varsha. All rights reserved.
+  </footer>
+
+  <script>
+    function contactMessage() {
+      alert("Thanks for reaching out! I'll get back to you soon 😊");
+    }
+  </script>
+</body>
+</html>
